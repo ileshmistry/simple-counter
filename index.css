@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-color: darkslategray;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -20,10 +20,13 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
-    border: 1ps solid black;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
 #increment-btn {
@@ -41,4 +44,9 @@ button {
     background-color: white;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+#text-el {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
